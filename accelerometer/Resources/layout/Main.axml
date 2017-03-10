@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:background="#ffffff"
+    android:minHeight="25px">
+    <TextView xmlns:tools="http://schemas.android.com/tools"
+        android:text="TEXT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/accelerometer_text"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="90dp"
+        android:textSize="0dp" />
+<!--    <ImageView
+        android:src="@drawable/unnamed"
+        android:layout_width="match_parent"
+        android:layout_height="380.0dp"
+        android:id="@+id/imageView1" />-->
+</LinearLayout>
